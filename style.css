@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body * {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
 .container-box{
     margin: 20px 15%;
 }
@@ -27,6 +31,7 @@ nav ul il {
     background-image: url(img/banner.jpg);
     background-size: cover;
     border-radius: 15px;
+    color: #ffffff;
 }
 .first-section > div {
     display: inline-block;
@@ -35,7 +40,7 @@ nav ul il {
 }
 
 .box-blu{
-    background-color: #3257fc;
+    
     height:500px
 }
 footer{
@@ -43,9 +48,7 @@ footer{
     height: 50px;
 
 }
-.text-box{
-    background-color: #8efdee;
-}
+
 .container.clearfix *{
     background-color: #8efdee;
 }
