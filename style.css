@@ -5,17 +5,35 @@
 }
 
 .container-box{
-    margin: 20px 150px;
+    margin: 20px 15%;
 }
 
-.box-rosa{
-    background-color: #ff859a;
-    height: 100px;
+.img-logo{
+    height: 50px;
+    vertical-align: middle;
+    padding-right: 15px;
+    border-right: 1px solid #DBDBDB;
 }
-.box-verde{
-    background-color: #8cd48c;
-    height: 300px;
+nav{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #DBDBDB;
 }
+nav ul il {
+    display: inline;
+    text-transform: uppercase;
+}
+.first-section{
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.first-section > div {
+    display: inline-block;
+    margin-top: 300px;
+    padding: 50px;
+}
+
 .box-blu{
     background-color: #3257fc;
     height:500px
@@ -47,11 +65,11 @@ aside,.c-box{
 aside{
     width: 20%;
 }
-.container.clearfix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
-.container.clearfix > *{
+.clearfix > *{
     float: left;
 }
