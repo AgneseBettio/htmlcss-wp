@@ -44,7 +44,7 @@ nav ul il {
     height:500px
 }
 footer{
-    background-color: #ac53ac;
+    text-align: center;
     height: 50px;
 
 }
@@ -75,4 +75,8 @@ aside{
 }
 .clearfix > *{
     float: left;
+}
+.footer-img{
+    color: #FF0000;
+
 }
