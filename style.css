@@ -6,6 +6,7 @@
 
 body * {
     font-family: 'Noto Sans SC', sans-serif;
+    
 }
 
 .container-box{
@@ -26,9 +27,11 @@ nav{
 nav ul il {
     display: inline;
     text-transform: uppercase;
+    margin-left: 10px;
 }
 .first-section{
     background-image: url(img/banner.jpg);
+    opacity: 0.9;
     background-size: cover;
     border-radius: 15px;
     color: #ffffff;
@@ -43,14 +46,22 @@ nav ul il {
 
 
 .text-box{
-    height:50px;
     margin-bottom: 20px;
+}
+h2{
+    font-weight: bold;
+}
+.subtitle{
+    color:  #DBDBDB;
 }
 aside > .img, .c-box > .img{
     display: block;
     border-radius: 15px;
     height: 150px;
     background-size: cover;
+    margin-bottom: 15px;
+    border: 1px solid  #DBDBDB;
+    opacity: 0.9;
 }
 .img.left-aside{
     background-image: url(img/img-1.jpg);
@@ -62,8 +73,12 @@ aside > .img, .c-box > .img{
 .img.center-side{
     background-image: url(img/banner-2.jpg);
 }
-h3 > p{
-    display: inline-block;
+main > p{
+    display: block;
+}
+.main-text{
+    color:  #DBDBDB;
+    margin-top: 15px;
 }
 
 .c-box {
