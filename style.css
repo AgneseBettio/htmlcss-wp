@@ -9,7 +9,7 @@ body * {
 }
 
 .container-box{
-    margin: 20px 15%;
+    margin: 30px 40px;
 }
 
 .img-logo{
@@ -35,30 +35,37 @@ nav ul il {
 }
 .first-section > div {
     display: inline-block;
-    margin-top: 300px;
+    margin-top: 200px;
+    margin-right: 20%;
     padding: 50px;
 }
 
-.box-blu{
-    
-    height:500px
-}
-footer{
-    text-align: center;
-    height: 50px;
 
-}
 
-.container.clearfix *{
-    background-color: #8efdee;
-}
 .text-box{
     height:50px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
-aside,.c-box{
-    height: 410px;
+aside > .img, .c-box > .img{
+    display: block;
+    border-radius: 15px;
+    height: 150px;
+    background-size: cover;
 }
+.img.left-aside{
+    background-image: url(img/img-1.jpg);
+    background-size: cover;
+}
+.img.right-aside{
+    background-image: url(img/img-3.jpg);
+}
+.img.center-side{
+    background-image: url(img/banner-2.jpg);
+}
+h3 > p{
+    display: inline-block;
+}
+
 .c-box {
     width: 55%;
     margin-left: 2.5%;
@@ -76,7 +83,14 @@ aside{
 .clearfix > *{
     float: left;
 }
+
+footer{
+    text-align: center;
+    border-top: 30px;
+}
 .footer-img{
     color: #FF0000;
-
+}
+footer > p {
+    display: block;
 }
